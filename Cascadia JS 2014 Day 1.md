@@ -1,0 +1,166 @@
+# Cascadia JS 2014!
+
+- Intro remarks by @hackygolucky
+- Allen introduces himself and attempts to be hype man
+
+## What we paln for is never what actually happens
+- @willowbl00
+- Technology as a means to equality
+- Who are the most marginalized people who might use that thing? Build it with them in mind and things will probably work for everyone else
+- resource allocation for disaster scenarios is centralised and often poorly organised
+- witht he internet you can use ecommerce wishlists as an enabler for mutual aid, as happenned with "Occupy Sandy" in New York
+- interesting story about process of building a gendered violence relief hotline's information system in Haiti
+- In Tanzania, there is a chaotic, decentralized water infrastructure of "water points", built featurephone compatible application for reporting broken water points, which enabled reportingand a real idea about the state of the water infrastructure
+- Disasters are messy, lots of organiationsand individuals trying to help, and they coordinate poorly, "Badges" enable a cross situational credential for doing a thing
+- geob.org/donate
+- codesign toolkit for building thingswithan intended userbase
+
+## Everything you never wanted to know about maps
+- @patrickarlt
+- Visalize, analyze and interpret spatial data
+- Customers in government, utilities, telecomm and disaster response agencies
+- Bring people doing crazy advanced GIS stuff and software developers together
+- different jargon coming into the company
+- Map Projections: how to flatten the earth
+- Surfaces -> planes, cylinders, cone, each one preserves differnet combinations of angle, distance, etc.
+- Azimuthal: project around a point and distance to that point will be preserved
+- Mercator projections preserve course at sea!
+- Equal Area maps preserve proportions of spaces
+- Dymaxion: project onto a D20
+- Google Mercator puzzle lets you see how things distort in the mercator projection from poles to equator
+- Spatial Reference systems: Geographic Coordinate system -> projected coordinate system
+- unit measurement, prime meridian, which spheroid model of the earth are you using?
+- A datum, control points
+- Projected coordinate system: plot x/y pairs ontoa  flat surface, x = longitude, y = lattitude
+- Web mercator: default in google maps, leaflet and esri
+- "State Plane System" - a common format for geodata in the US
+- libraries ogr2ogr, pro4js
+- work in geoJSON!
+- convert from esri shape files to geoJSON
+- spatialrefernce.org
+- webgl + openstreetmap + vector tiles!
+- demos adaptive projection maps
+- esri is working on 3d mapping, shows demo of recreation of jfk assasination including bullet trajectories and texas school book depository.                                               
+
+## Contributors wanted: increasing diversity in open source projects
+- @k88hudeson
+- diversity is a source of success
+- what is diversity? what makes it the secret sauce for open source?
+- identity diversity: gender, ethnicity, religious and political beliefs
+- cognitive diversity also very important!
+- we don't talk much about how being/thinking differently can be good collectively, for groups
+- diversity trumps ability?
+- cognitively diverse groups outperform experienced ones
+- diversity makes a difference in disjunctive tasks, where group performance is depenedent on its strongest member
+- diversity of experience matters for open source
+- split your code base up into simpler modules that can be worked on independently
+- consider a code of conduct to handle conflict amongst contributors
+- consider taking contribution beyond code: e.g. user research
+- Does my software do what I think it does?
+- Formalize your expectations of how you expect your users to interact and validate them or reformulate themor change the software!
+- pro tip: you only need about 5 sessions to get useul data out of user testing
+- cognitive diversity will highlight different things from the results of user testing
+- Transifex is a community localaization and translation platform
+- moment.js has good localization
+- mozilla popcorn maker rejigs its layout in arabic, a right to left language
+- making good software is hard, and cognitive diversity is too valuable for you not to care                                                     
+
+## Organising a successful user group
+- @jxson
+- used to run js.la
+- successful: means continues and long lasting with good leadership, as opposed to big/famous/lots of speakers
+- provides a professional support group
+- more diverse than the people you work with
+- stitch-n-bitch: it can be helpful to just talk
+- the idea of being a craftsperson with a guild/union
+- speaking candidly with professionals you don't work with directly can be good
+- being completely immersed in developer culture is probably not good for yout hough
+- community/culture are intagible, they're something you take part in making
+- you need to be a willing participant and collaborator, not an opportunist
+- what's good is subjective to the audience, you 
+- DIY, like bad punk and hardcore bands
+- it doesn't have to be perfect
+- you can take any place and make it yours, you just have to have the desire and the people in place
+- "your people" are not from here
+- tech is not just for people with time and access
+- why aren't things better in my town? content, leadership and consistency
+- the talks in LA were bad at some point, lots of intro to X framework
+- it was work to start js.la, but things went halfway smoothly after that
+- don't ask for permission, ask for help!
+- but don't intentionally step on toes either, don't start a gang war over what nights you run
+- have a clear vision
+- don't pander to the status quo, push things past mediocrity
+- BUT also be responsive to feedback
+- Don't cater to beginners, instead nurture a community that is welcoming
+- Blow people's minds, or at least try to
+- Remeber, programming is supposed to be fun
+- Be excited as an organizer, create things that inspire you
+- Book speakers ina dvance, up to 3 months, they can and do cancel, more time gives you a cahnce to find a backup
+- Venues don't need to be perfect, just big enough
+- Treat venues like sponsors, exchange their time and space for something
+- don't burn out, ask for help, lots of help
+- Join forces: LA Devops, spec.la, Data Viz LA
+- Seeking consensus is the enemy of getting things done, split things up and let them run autonomously, trust
+- Have a single, omni-directional information authority
+- Get sponsors, pizza for 80 people adds up, be clear what you want from and offer to sponsors
+- It's ok to have more than one sponsor
+- Balance sponsor's interest with audience's time and attention
+- Food and beverages: 2 slices and 1.5 beers is a good rule of thumb (also bring water)
+- beer is nice, but not crucial
+- (Maybe) don't use meetup.com or other places where recruiters and other opportunists lurk
+- Recruiters can sometimes be ok though, if they are otherwise good participants
+- but really, don't tolerate opportunists
+- Be consistent, don't be confusing
+- Produce Artifacts: record videos, take pictures, useful to others, your sponsors, your future speakers
+- provide extra time and space: drinks.js
+- IF you build it, they will come
+- jason campbell, google
+
+## Web Componenets vs. GIFs
+- @GlennMaddern
+- Glen Maldern
+- saw vastImg
+- ETOOMUCHPORN
+- GifCity + tumblr = giflove
+- DJGif matches Gifs to music
+- you can't control much via the img tag
+- but aha moment occurs, a gif is nothing but a series of frames
+- animated gif is a headers, a series of frames and a footer
+- gifexploder.js
+- all frames in the DOM, show hide with a little css and js
+-geelen.github.io/x-gif, that wrapped ina polymer component
+- Dreamcode: API is the best expression of your intent
+- The API of a web componenet is the most important part, it dictates to the user what is possible
+- Polymer vulcanize, a build tool for web components, inlines js, css and html
+- polymer is a framework itself, has opinions about structure and re-use
+- Shadow DOM is badass and frameworks don't quite play nice with it yet
+- Chrome 36: 300 million people will have access to web components
+- platform.js is a shim for web componenets on lots of other browsers
+- the difference between polymer componenets and web components is native reach and interaction with other frameworks, you have created an extension of the browser
+- Even React.js has to talk to html elements 
+
+## HCI, Open Source and Graph Theory
+- @indexzero, ceo nodejitsu
+- Recently a Master of Human Computer Interaction
+- Tron, he fights for the user
+- HCI and static analysis, why?
+- why is npm a worthy HCI topic? giant user base you can get stats from
+- small group of 8 experts
+- Likert scales?
+- Various things you can do before a breaking change: gh issue, tweet, mailing list, look at what is most effective
+- most effective methods are the least used (and most effort)
+- G.R.E.A.M. Graphs Rule Everything Around Me
+- Dependency Graphs
+- With npm it doesn't tell you much to look at it visually, but does provide you a basis for a search problem
+- Explodes with 80 000 packages and hundreds of versions
+- gets easier to think about if we restrict to latest version
+- people who depend on A also depend on....
+- codependencies answer the question by counting how often things are depended on together
+- rank codependencies by how often they occur
+- shows graph, size of arc is relative popularity, chords between represent magnitude of codependency relationship, colour shows "dominance"
+- codeps.jit.su
+- browsenpm.org
+- nixon popularised idea of fear of a silent majority, "squeeky wheel gets the grease"
+- use esprima to quantify use of modules, show hottest methods
+- checkout winston
+- lets you quantify the "silent majority"

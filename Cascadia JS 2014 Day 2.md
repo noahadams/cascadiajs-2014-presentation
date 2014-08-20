@@ -5,7 +5,7 @@
 ## Accessability
 - Marcy Sutton from Substantial
 - Are your views accessible? It depends on the framework, the screen reader, the browser, your (shitty?) code?
-- Perceivable, Operable Understandable, Robust - WCAG 2.0 Principles
+- Perceivable, Operable, Understandable, Robust - WCAG 2.0 Principles
 - Interactivity is a challenge, add focussed states to things
 - Notify of updates
 - Hamburger button example is not understandable or operable, only has a css class, basically placeholder markup
@@ -32,21 +32,21 @@
 - lessons learned and used doing continuation local storage in node
 - @othiym23
 - need variables scoped accross concurrent requests
-- liek thread local storage
+- like thread local storage
 - with threads these are generally just the thread's stack, in node we use potentially async callbacks, so the stack will often be gone
 - node uses continuation passing style
-- in express you often jsut bolt stuff ontot he side of the response, but this might not always play nice when your data is cyclical and the response gets traversed bya  naive logger
+- in express you often just bolt stuff onto the side of the response, but this might not always play nice when your data is cyclical and the response gets traversed by a naive logger
 - process-global namespaces
 - cls is kind of like domains
 - Uses asyncListener, How does asyncListener work? it monkey patches every async function in node-core
 - "stackup" uses asyncListener and produces long stack traces, across async boundaries
-- asyncListener is currently being bikeshedded, watch out if youre using it.
+- asyncListener is currently being bikeshedded, watch out if you're using it.
 - What is CLS? provides storage that looks global, but is actually scoped to an async call chain
 - the api looks like node domains, because it's based on them
 - what is cls useful for: transaction tracing, passing data through complicated web apps, logging, third party-async code
 - Sometimes you can use shims, cls-q, cls-redis, to deal with edge cases around connection pools and pipelines
 - Sometimes you have to bind callbacks to namespaces explicitly
-- EventEMitters are another special case, you need to explicitly bind emitters (like streams) to namespaces
+- EventEmitters are another special case, you need to explicitly bind emitters (like streams) to namespaces
 - Let's get real
 - Is it safe: some sginificant cpu overhead, more gc pressure and memory overhead, doesn't change behaviour of your program or node
 - every new relic user for node is using it
@@ -87,7 +87,7 @@
 - Successful careers in the past !== seamless entry into life as a programmer
 - llkats gather-the-singletons
 - Unrealistic Expectations: knowing terminology, code -> production is complicated, nothing is transparent
-- new devs are self consciousand easily embarrassed, are less likely to ask questions and are thus more likely to make mistakes
+- new devs are self conscious and easily embarrassed, are less likely to ask questions and are thus more likely to make mistakes
 - offer to answer questions, share stories, be careful ridiculing popular resources, model good behaviour
 
 # Hashing
@@ -162,7 +162,7 @@
 - mentors and learners both love it!
 - pair programming model for the event
 - we all have different bottoms, we all started somewhere different
-- havinga  white soundign first name si the equivalent of having 8 years of professional experience?
+- having a white soundign first name si the equivalent of having 8 years of professional experience?
 - where your bottom is is a matter of privilege
 - edgar allan bro!
 - rfc 822 and rfc 2616
@@ -170,7 +170,7 @@
 - think about providing childcare for your events
 - 
 
-## 
+## No More Unicorns
 - @ceejbot
 - the pronoun debate was very very sad
 - why don't you see women on node-core?
@@ -191,7 +191,7 @@
 - your hiring process sucks
 - terrible cultural secret: men overstate, women understate
 - another hot tip, women are undervalued salarywise
-- let's do better than notbeing horrible to women
+- let's do better than not being horrible to women
 - talking about diversity in hiring is threatening to those in the status quo group
 - the games industry is even worse than this crowd
 - the standard you walk past is the standard you accept

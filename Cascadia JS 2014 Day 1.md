@@ -57,7 +57,7 @@
 - consider a code of conduct to handle conflict amongst contributors
 - consider taking contribution beyond code: e.g. user research
 - Does my software do what I think it does?
-- Formalize your expectations of how you expect your users to interact and validate them or reformulate themor change the software!
+- Formalize your expectations of how you expect your users to interact and validate them or reformulate them or change the software!
 - pro tip: you only need about 5 sessions to get useul data out of user testing
 - cognitive diversity will highlight different things from the results of user testing
 - Transifex is a community localaization and translation platform
@@ -95,7 +95,7 @@
 - Blow people's minds, or at least try to
 - Remeber, programming is supposed to be fun
 - Be excited as an organizer, create things that inspire you
-- Book speakers ina dvance, up to 3 months, they can and do cancel, more time gives you a cahnce to find a backup
+- Book speakers in advance, up to 3 months, they can and do cancel, more time gives you a cahnce to find a backup
 - Venues don't need to be perfect, just big enough
 - Treat venues like sponsors, exchange their time and space for something
 - don't burn out, ask for help, lots of help
